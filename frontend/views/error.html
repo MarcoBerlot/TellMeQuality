@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>TellMeQuality</title>
+
+  <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/public/css/style_animation.css">
+  <link rel="stylesheet" type="text/css" href="/public/css/mystyle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="/public/css/lib/font-google.css" rel="stylesheet">
+</head>
+<body>
+  <div id="header-menu"></div>
+  <div class="text lato_title">TELL ME QUALITY</div>
+
+
+  <div class="container-fluid" style="text-align:center;">
+    <div class="row">
+      <div class="col-sm-offset-3 col-sm-6 top-buffer" >
+        <h2>It seems that somenthing went wrong with the files you uploaded. Try to upload them again</h2>
+      </div>
+    </div>
+
+    <div class="row top-buffer">
+      <div class="col-sm-12">
+
+      <i class="fa fa-exclamation-circle fa-4x" aria-hidden="true"></i>
+    </div>
+  </div>
+      <div class="row top-buffer">
+
+      <div class="col-sm-12">
+        <button id="req_homepage" type="button" onclick="location.href='/views/upload.html';" class="semi-transparent-button large lato ">UPLOAD THE FILE AGAIN</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>$("#header-menu").load("/views/template/header.html");</script>
+</body>
+</html>
